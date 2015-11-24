@@ -24,7 +24,7 @@ public class Instantiation : MonoBehaviour
     }
 
     void Update() {
-        if (Input.GetKeyDown(KeyCode.Pause))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             foreach (GameObject item in cubes)
             {
